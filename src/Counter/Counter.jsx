@@ -15,9 +15,11 @@ const handleDecrement = ()=>{
 }
 
     return(
-<div className="flex items-center justify-start flex-col border w-50 h-50 p-5 md:w-80 md:h-80  rounded-xl shadow-lg shadow-gray-500 ">
+<div className="flex items-center justify-center gap-10 flex-col border w-[90%] h-[90vh] md:w-[70%] md:h-[90vh] lg:w-[50%] lg:h-[90vh] p-10 rounded-xl shadow-lg shadow-gray-500">
+
+
     <h1 className="text-[150px] font-bold">{x}</h1>
-    <div className="flex gap-5">
+    <div className="flex gap-10">
     
         {/* substraction */}
         <div className="text-3xl">
